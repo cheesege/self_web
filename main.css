@@ -1,0 +1,43 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#98C1D9;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/*焦點事件*/
+li a:hover {
+    background-color:#4A6670;
+    color: white;
+}
+
+/*啟動狀態*/
+.pagenow {
+    background-color: #65185C;
+    color: white;
+}
+
+img {
+    display: block;
+    height: 10%;
+    width: 10%;
+}
+
+.shape_circle{
+    width:100px;
+    height: 100px;
+    background-color: #2196f3;
+    clip-path: circle(100% at 100px 100px);
+  }
