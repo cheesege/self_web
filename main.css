@@ -1,24 +1,36 @@
-ul {
-    list-style-type: none;
-    margin: 0;
+*{/*reset*/
     padding: 0;
-    overflow: hidden;
-    background-color:#98C1D9;
+    margin: 0;
+}
+header{
+    background-color: #98C1D9;
+    height: 90px;
+
+    background-image:url(Head-pic.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 1vw;
+}
+header ul {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    line-height: 80px;
 }
 
-li {
-    float: right;
+header li {
+    margin-right: 1vw;
+    display: inline;
 }
 
-li a {
-    display: block;
+header li a {
     color: #ffffff;
-    padding: 8px 16px;
+    padding: 16px 16px;
     text-decoration: none;
 }
 
 /*焦點事件*/
-li a:hover {
+header li a:hover {
     background-color:#4A6670;
     color: white;
 }
@@ -29,15 +41,9 @@ li a:hover {
     color: white;
 }
 
-img {
-    display: block;
-    height: 10%;
-    width: 10%;
+section {
+    border-color: #c8ead3;
+    border: 10px #cedada solid;
+    height: 200px;
+    width: auto;
 }
-
-.shape_circle{
-    width:100px;
-    height: 100px;
-    background-color: #2196f3;
-    clip-path: circle(100% at 100px 100px);
-  }
