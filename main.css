@@ -1,9 +1,10 @@
 *{/*reset*/
     padding: 0;
     margin: 0;
+    background-color: #eaeaea;
 }
 header{
-    background-color: #98C1D9;
+    background-color: #0c2635;
     height: 90px;
 
     background-image:url(Head-pic.png);
@@ -16,17 +17,20 @@ header ul {
     right: 10px;
     top: 0;
     line-height: 80px;
+    background-color: #0c2635;
 }
 
 header li {
     margin-right: 1vw;
     display: inline;
+    
 }
 
 header li a {
     color: #ffffff;
     padding: 16px 16px;
     text-decoration: none;
+    background-color:#8C93A8 ;
 }
 
 /*焦點事件*/
@@ -37,13 +41,35 @@ header li a:hover {
 
 /*啟動狀態*/
 .pagenow {
-    background-color: #65185C;
+    background-color: #62466B;
     color: white;
 }
 
 section {
-    border-color: #c8ead3;
-    border: 10px #cedada solid;
-    height: 200px;
-    width: auto;
+    border: 10px #62466B solid;
+    width: 100%;
+    position: relative;
+    background-color: #E3DBDB;
 }
+
+section > h2 {
+    font-size: 2rem;
+    line-height: 2.7rem;
+}
+
+.chunk {
+    font-size: 3rem;
+    align-items: center;
+}
+
+.chunk img {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+footer {
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #2D2327;
+    color: white;
+  }
