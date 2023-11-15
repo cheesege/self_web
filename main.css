@@ -1,23 +1,23 @@
+@import "./scrollbar.css";
 *{/*reset*/
     padding: 0;
     margin: 0;
-    background-color: #eaeaea;
+    background-color: #dcdbe3;
+    font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei", STXihei, sans-serif;
 }
 header{
     background-color: #0c2635;
     height: 90px;
-
-    background-image:url(Head-pic.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 1vw;
 }
-header ul {
+header > ul {
     position: absolute;
-    right: 10px;
-    top: 0;
-    line-height: 80px;
+    right: 0;
+    top: 2%;
+    line-height: 1rem;
+    margin: 0;
     background-color: #0c2635;
+    padding: 1rem;
+    display: flex;
 }
 
 header li {
@@ -47,19 +47,37 @@ header li a:hover {
 
 section {
     border: 10px #62466B solid;
-    width: 100%;
     position: relative;
-    background-color: #E3DBDB;
+    background-color: #dcdbe3;
+    max-width: 100%;
+    font-size: 1.2rem;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px;
+    padding-left: 20px;
+}
+
+section li{
+    background-color: #dcdbe3;
+}
+
+section > ul {
+    list-style-type:disc;
 }
 
 section > h2 {
     font-size: 2rem;
     line-height: 2.7rem;
+    width: auto;
+    background-color: #dcdbe3;
 }
 
 .chunk {
     font-size: 3rem;
-    align-items: center;
+    display:flex ;
+    justify-content: center;
+    height: 450px;
+    border: 0;
+    font-size: 5rem;
 }
 
 .chunk img {

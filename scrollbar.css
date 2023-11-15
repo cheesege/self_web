@@ -1,0 +1,10 @@
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 0.7rem;
+}
+/*拉條存在*/
+::-webkit-scrollbar-thumb {
+    background-color: rgba(11, 65, 184, 0.712);
+    border-radius: 1rem;
+}
+/*拉條本身*/

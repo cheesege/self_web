@@ -1,0 +1,13 @@
+.spin{
+    height: 90px;
+    width: 90px;
+}
+.spin img{
+    display: block;
+    height: 100%;
+    background-color: #0c2635;
+    transition: transform 15s ease-in-out;
+}
+.spin img:hover{
+    transform: rotate(36000deg);
+}
