@@ -90,4 +90,6 @@ footer {
     text-align: center;
     background-color: #2D2327;
     color: white;
+    position: sticky;
+    top: 100vh;
   }

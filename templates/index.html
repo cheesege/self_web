@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>起司的神奇空間</title>
     <link rel="icon" href="Head-pic.png">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="animation.css">
+    <!--<link rel="stylesheet" href="main.css">-->
+    <!--<link rel="stylesheet" href="animation.css">-->
+    <link rel="icon" href="{{ url_for('static', filename = 'Head-pic.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'animation.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'scrollbar.css') }}">
 </head>
 <body>
     <header>
         <div class="spin">
-            <img src="Head-pic.png" alt="IIIIIIITTTTTSSSSSSS MMMMMMMMMEEEEEEEEE">
+            <img src="{{ url_for('static', filename = 'Head-pic.png') }}" alt="IIIIIIITTTTTSSSSSSS MMMMMMMMMEEEEEEEEE">
         </div>
         <ul>
-            <li><a href="index.html" class="pagenow">Home</a></li>
+            <li><a href="index" class="pagenow">Home</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="works.html">Works</a></li>
-            <li><a href="tool.html">Tools</a></li>
+            <li><a href="tool">Tools</a></li>
         </ul>
     </header>
     <section class="chunk">
         <p>"AAAAAAAAAA"</p>
-        <img src="Head-pic.png">
+        <img src="{{ url_for('static', filename = 'Head-pic.png') }}">
     </section>
     <section>
         <h2>自我介紹</h2>
